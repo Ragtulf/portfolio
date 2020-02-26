@@ -26,9 +26,7 @@ h4 {
 }
 
 header {
-  background: #080045;
-
-  
+  background: #080045;  
 }
 
 .thin {
@@ -58,6 +56,32 @@ header {
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
+}
+
+.circles {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  position: relative;
+  top: 20%;
+  right: 5%;
+}
+
+.circle {
+  border: 2px solid #ffffff;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  margin: 5px;
+  justify-content: center;
+  align-items: center;
+}
+
+.icons {
+  width: 20px;
+  height: 20px;
+  padding: 8px;
 }
 
 .ragna img {
