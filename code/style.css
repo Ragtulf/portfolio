@@ -25,26 +25,48 @@ h4 {
   margin: 0;
 }
 
+header {
+  background: #080045;
+
+  
+}
+
 .thin {
-  font-weight: 200;
+  font-weight: 300;
 }
 
 
 .hero-image {
   background-image: url(./assets/paint.jpeg);
-  height: 700px;
+  height: 400px;
   background-attachment: fixed;
   background-size: cover;
-  opacity: 1;
+  opacity: 1;  
 }
 
 .hero-text {
-  width: 300px;
+  width: 280px;
   text-align: left;
   position: absolute;
-  top: 30%;
+  top: 20%;
   left: 20%;
   color: #ffffff;
+  opacity: 1;
+}
+
+.ragna {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.ragna img {
+  width: 200px;
+  border-radius: 50%;
+  border: 5px solid white;
+  position: relative;
+  top: 220px;
+  right: 180px;
 }
 
 /* font-family: 'Montserrat', ;
