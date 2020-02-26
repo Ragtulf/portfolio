@@ -1,0 +1,51 @@
+body {
+  height: 100%;
+  margin: 0;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.2em;
+  margin-top: 0.2em;
+  margin-bottom: 0px;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.3em;
+  margin-top: 0.3em;
+  margin-bottom: 0.3em;
+}
+
+h4 {
+  font-size: 0.8em;
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin: 0;
+}
+
+.thin {
+  font-weight: 200;
+}
+
+
+.hero-image {
+  background-image: url(./assets/paint.jpeg);
+  height: 700px;
+  background-attachment: fixed;
+  background-size: cover;
+  opacity: 1;
+}
+
+.hero-text {
+  width: 300px;
+  text-align: left;
+  position: absolute;
+  top: 30%;
+  left: 20%;
+  color: #ffffff;
+}
+
+/* font-family: 'Montserrat', ;
+  font-family: 'Roboto', ; */
