@@ -1,6 +1,7 @@
 body {
   height: 100%;
   margin: 0;
+  font-family: 'Montserrat', sans-serif;
 }
 
 h1 {
@@ -91,6 +92,22 @@ header {
   position: relative;
   top: 220px;
   right: 180px;
+}
+
+.intro {
+  background-color: #f4f4f4;
+  width: 100%;
+  padding: 3em;
+}
+
+.intro-txt {
+  font-weight: 300;
+  display: flex;
+  width: 40%;
+  font-size: 1em;
+  line-height: 1.8em;
+  position: relative;
+  left: 16.5%;
 }
 
 /* font-family: 'Montserrat', ;
