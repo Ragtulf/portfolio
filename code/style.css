@@ -2,6 +2,7 @@ body {
   height: 100%;
   margin: 0;
   font-family: 'Montserrat', sans-serif;
+  box-sizing: border-box;
 }
 
 h1 {
@@ -17,6 +18,7 @@ h2 {
   color: #ffffff;
   background-color: #FA382F;
   padding: 4px;
+  margin-bottom: 1.5em;
 }
 
 h3 {
@@ -32,6 +34,13 @@ h4 {
   text-transform: uppercase;
   letter-spacing: 1px;
   margin: 0;
+}
+
+h5 {
+  color: #FA382F;
+  text-align: center;
+  font-size: 1.5em;
+  margin: 3.5em 0 1em 0;
 }
 
 header {
@@ -125,7 +134,9 @@ header {
 /*** TECH SECTION ***/
 
 .tech {
+  width: 100%;
   padding-top: 2em;
+  padding-bottom: 3em;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -145,3 +156,109 @@ header {
   color: #FA382F;
 }
 
+/*** FEATURED PROJECTS SECTION ***/
+ 
+.featured {
+  padding-top: 4em;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #f4f4f4;
+  width: 100%;
+  
+}
+
+.featured-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  max-width: 800px;
+}
+
+.card {
+  padding: 0.7em 0 1em 0;
+  margin: 0 1em 0 1em;
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  text-align: start;
+  min-width: 320px;
+}
+
+.image-box {
+  position: relative;
+  width: 100%;
+}
+
+.image-box img{
+  width: 100%;
+}
+
+.over-image {
+  transition: 0.5s ease;
+  opacity: 1;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  background: #FA382F;
+}
+
+
+.project-name {
+  transform: translate(-50%,-50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: #ffffff;
+  background-color: blueviolet;
+}
+
+.project-description {
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.85em;
+}
+
+.red-bold {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  color: #FA382F;
+}
+
+.underlined {
+  font-size: 1.2em;
+  text-decoration: underline solid #FA382F;
+}
+
+.tags {
+  font-size: 0.6em;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.tag {
+  background-color: #FDDFE7;
+  padding: 3px 10px 3px 10px;
+  margin: 3px; 
+}
+
+.other-projects {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 60%;
+  margin-bottom: 4em;
+}
+
+.other-pro-container {
+  padding-bottom: 1em;
+}
+
+.other-pro-container .project-description {
+  margin: 0.2em 0 0.5em 0;
+  text-decoration: underline;
+}
