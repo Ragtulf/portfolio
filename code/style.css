@@ -19,6 +19,7 @@ h2 {
   background-color: #FA382F;
   padding: 4px;
   margin-bottom: 1.5em;
+  letter-spacing: .1rem;
 }
 
 h3 {
@@ -41,6 +42,12 @@ h5 {
   text-align: center;
   font-size: 1.5em;
   margin: 3.5em 0 1em 0;
+}
+
+h6 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.2em;
+  margin: 0;
 }
 
 header {
@@ -193,6 +200,9 @@ header {
 
 .image-box img{
   width: 100%;
+  object-fit: cover;
+  object-position: 50% 40%;
+  max-height: 202px;
 }
 
 .over-image {
@@ -261,4 +271,70 @@ header {
 .other-pro-container .project-description {
   margin: 0.2em 0 0.5em 0;
   text-decoration: underline;
+}
+
+/*** MY THOUGHTS ***/
+
+.my-thoughts {
+  width: 100%;
+  padding-top: 2em;
+  padding-bottom: 3em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.my-thoughts-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  max-width: 800px;
+}
+
+.thought-card {
+  padding: 0.7em 0 1em 0;
+  margin: 0 1em 0 1em;
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  text-align: start;
+  min-width: 320px;
+}
+
+.red-thin {
+  font-weight: 200;
+  color: #FA382F;
+  margin: 1em 0 0 0;
+}
+
+.articles-by-me {
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.85em;
+  margin-top: 1em;
+}
+
+.articles-by-me p {
+  line-height: 1.5em;
+  font-weight: 200;
+  margin: 0;
+}
+
+.more-thoughts-list {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  text-decoration: underline;
+  font-size: 1em;
+}
+
+.more-thoughts-container {
+  padding-bottom: 3em;
+  width: 60%;
+}
+
+/*** SKILLS SECTION ***/
+
+.skills-section {
+  background-color: #f4f4f4;
 }
