@@ -329,7 +329,7 @@ header {
 }
 
 .more-thoughts-container {
-  padding-bottom: 3em;
+  padding-bottom: 1em;
   width: 60%;
 }
 
@@ -337,4 +337,36 @@ header {
 
 .skills-section {
   background-color: #f4f4f4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 2em;
+}
+
+.column-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.column {
+  width: 150px;
+  flex-direction: row;
+  text-align: center;
+  padding: 0em 2em 2em 2em;
+}
+
+.column p {
+  font-size: .8em;
+}
+
+/*** FOR MORE SECTION ***/
+
+.for-more-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 2em;
 }
