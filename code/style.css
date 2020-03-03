@@ -245,6 +245,10 @@ header {
   color: black;
 }
 
+.project-description:hover {
+  color: #FA382F;
+}
+
 .red-bold {
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
@@ -325,6 +329,10 @@ header {
   /* width: 25%; */
   text-align: start;
   min-width: 300px;
+}
+
+.red-on-hover:hover {
+  color: #FA382F;
 }
 
 .red-thin {
