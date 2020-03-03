@@ -84,12 +84,16 @@ header {
 }
 
 .ragna {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
 }
 
 .circles {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-end;
@@ -103,6 +107,8 @@ header {
   border-radius: 50%;
   width: 40px;
   height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   margin: 5px;
   justify-content: center;
@@ -150,6 +156,8 @@ header {
   width: 100%;
   padding-top: 2em;
   padding-bottom: 3em;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -187,6 +195,8 @@ header {
   max-width: 60%;
   margin-left: auto;
   margin-right: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -197,6 +207,8 @@ header {
 .card {
   padding: 0.7em 0 1em 0;
   margin: 0 1em 0 1em;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   flex-direction: column;
   /* max-width: 40%; */
@@ -266,6 +278,8 @@ header {
 
 .tags {
   font-size: 0.6em;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   flex-wrap: wrap;
   align-items: flex-start;
@@ -282,6 +296,8 @@ header {
   max-width: 60%;
   margin-left: auto;
   margin-right: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   align-items: flex-start;
   flex-direction: column;
@@ -307,6 +323,8 @@ header {
   margin-right: auto;
   padding-top: 2em;
   padding-bottom: 3em;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -314,6 +332,8 @@ header {
 }
 
 .my-thoughts-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -324,6 +344,8 @@ header {
 .thought-card {
   padding: 0.7em 0 1em 0;
   margin: 0 1em 0 1em;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   flex-direction: column;
   /* width: 25%; */
@@ -359,6 +381,8 @@ header {
 
 .more-thoughts-container {
   padding-bottom: 1em;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   flex-direction: column;
   text-align: left;
@@ -377,6 +401,8 @@ header {
 
 .skills-section {
   background-color: #f4f4f4;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -385,6 +411,8 @@ header {
 }
 
 .column-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   justify-content: center;
   flex-direction: row;
@@ -404,6 +432,8 @@ header {
 /*** FOR MORE SECTION ***/
 
 .for-more-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -412,6 +442,8 @@ header {
 }
 
 .circles-red {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   flex-wrap: wrap;
   margin-bottom: 4em;
@@ -422,6 +454,8 @@ header {
   border-radius: 50%;
   width: 100px;
   height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   margin: 10px 40px 20px 40px;
   justify-content: center;
@@ -446,6 +480,8 @@ header {
   font-family: 'Montserrat', sans-serif;
   color: #ffffff;
   background-color: #072BCE;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   flex-direction: column;
 }
