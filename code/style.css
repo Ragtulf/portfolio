@@ -50,6 +50,10 @@ h6 {
   margin: 0;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
 
 header {
   background: #080045;  
@@ -116,8 +120,8 @@ header {
   border-radius: 50%;
   border: 5px solid white;
   position: relative;
-  top: 220px;
-  right: 180px;
+  top: 10em;
+  right: 6em;
 }
 
 /*** INTRO SECTION ***/
@@ -126,17 +130,18 @@ header {
   border-top: 2px solid #ffffff;
   background-color: #f4f4f4;
   width: 100%;
-  padding: 3em;
+  padding: 3em 0;
 }
 
 .intro-txt {
+  max-width: 60%;
+  margin-left: auto;
+  margin-right: auto;
   font-weight: 300;
   display: flex;
-  width: 50%;
   font-size: 1em;
   line-height: 1.8em;
   position: relative;
-  left: 16.5%;
 }
 
 /*** TECH SECTION ***/
@@ -152,8 +157,10 @@ header {
 }
 
 .tech-txt {
+  max-width: 60%;
+  margin-left: auto;
+  margin-right: auto;
   font-weight: 300;
-  width: 50%;
   font-size: 1em;
   line-height: 1.8em;
   position: relative;
@@ -177,11 +184,14 @@ header {
 }
 
 .featured-wrapper {
+  max-width: 60%;
+  margin-left: auto;
+  margin-right: auto;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   align-items: center;
-  max-width: 800px;
+  /* max-width: 800px; */
 }
 
 .card {
@@ -189,9 +199,9 @@ header {
   margin: 0 1em 0 1em;
   display: flex;
   flex-direction: column;
-  width: 25%;
+  /* max-width: 40%; */
   text-align: start;
-  min-width: 320px;
+  min-width: 300px;
   position: relative;
 }
 
@@ -229,17 +239,24 @@ header {
 .project-description {
   font-family: 'Roboto', sans-serif;
   font-size: 0.85em;
+  padding-top: 1em;
+  padding-bottom: .8em;
+  text-decoration: none;
+  color: black;
 }
 
 .red-bold {
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
   color: #FA382F;
-  text-decoration: underline;
 }
 
 .underlined {
-  font-size: 1.2em;
+  font-size: 1.1em;
+  text-decoration: underline solid #FA382F;
+}
+
+.red-bold-underlined {
   text-decoration: underline solid #FA382F;
 }
 
@@ -257,15 +274,19 @@ header {
 }
 
 .other-projects {
+  width: 100%;
+  max-width: 60%;
+  margin-left: auto;
+  margin-right: auto;
   display: flex;
   align-items: flex-start;
   flex-direction: column;
-  width: 60%;
   margin-bottom: 4em;
 }
 
 .other-pro-container {
   padding-bottom: 1em;
+  text-align: left;
 }
 
 .other-pro-container .project-description {
@@ -277,6 +298,9 @@ header {
 
 .my-thoughts {
   width: 100%;
+  max-width: 60%;
+  margin-left: auto;
+  margin-right: auto;
   padding-top: 2em;
   padding-bottom: 3em;
   display: flex;
@@ -290,7 +314,7 @@ header {
   justify-content: center;
   flex-wrap: wrap;
   align-items: center;
-  max-width: 800px;
+  /* max-width: 800px; */
 }
 
 .thought-card {
@@ -298,15 +322,19 @@ header {
   margin: 0 1em 0 1em;
   display: flex;
   flex-direction: column;
-  width: 25%;
+  /* width: 25%; */
   text-align: start;
-  min-width: 320px;
+  min-width: 300px;
 }
 
 .red-thin {
   font-weight: 200;
   color: #FA382F;
   margin: 1em 0 0 0;
+}
+
+.red-underline {
+  text-decoration: underline solid #FA382F;
 }
 
 .articles-by-me {
@@ -321,19 +349,20 @@ header {
   margin: 0;
 }
 
+.more-thoughts-container {
+  padding-bottom: 1em;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  width: 100%;
+}
+
 .more-thoughts-list {
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
   text-decoration: underline;
   font-size: 1em;
   margin: 0.7em 0;
-}
-
-.more-thoughts-container {
-  padding-bottom: 1em;
-  width: 60%;
-  display: flex;
-  flex-direction: column;
 }
 
 /*** SKILLS SECTION ***/
