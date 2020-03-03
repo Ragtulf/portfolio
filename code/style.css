@@ -235,6 +235,7 @@ header {
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
   color: #FA382F;
+  text-decoration: underline;
 }
 
 .underlined {
@@ -325,11 +326,14 @@ header {
   font-weight: bold;
   text-decoration: underline;
   font-size: 1em;
+  margin: 0.7em 0;
 }
 
 .more-thoughts-container {
   padding-bottom: 1em;
   width: 60%;
+  display: flex;
+  flex-direction: column;
 }
 
 /*** SKILLS SECTION ***/
