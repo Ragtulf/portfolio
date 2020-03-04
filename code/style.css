@@ -211,7 +211,7 @@ header {
   display: -ms-flexbox;
   display: flex;
   flex-direction: column;
-  /* max-width: 40%; */
+  max-width: 40%;
   text-align: start;
   min-width: 300px;
   position: relative;
@@ -348,7 +348,7 @@ header {
   display: -ms-flexbox;
   display: flex;
   flex-direction: column;
-  /* width: 25%; */
+  width: 25%;
   text-align: start;
   min-width: 300px;
 }
@@ -501,5 +501,41 @@ header {
 
 .contact-text p {
   margin: 0;
+}
+
+
+@media (max-width: 1386px) {
+  .featured-wrapper {
+    max-width: 80%;
+  }
+
+  .card {
+    max-width: 30%;
+  }
+}
+
+@media (max-width: 1038px) {
+  .featured-wrapper {
+    max-width: 90%;
+  }
+  
+  .card {
+    max-width: 300px;
+  }
+}
+
+@media (max-width: 924px) {
+  .featured-wrapper {
+    max-width: 100%;
+  }
+  .card {
+    max-width: 200px;
+  }
+}
+
+@media (max-width: 390px) {
+  .card {
+    min-width: 250px;
+  }
 }
 
