@@ -531,11 +531,145 @@ header {
   .card {
     max-width: 200px;
   }
+
+  .hero-image {
+    height: 500px;
+  }
+
+  .ragna img {
+    top: 17em;
+  }
 }
 
+
+@media (max-width: 811px) {
+  .ragna img {
+    width: 180px;
+  }
+
+  .hero-image {
+    height: 500px;
+  }
+}
+
+@media (max-width: 730px) {
+  .column-wrapper {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 681px) {
+  .hero-text {
+    left: 5%;
+  }
+
+  .heading-short {
+    display: none;
+  }
+}
+
+@media (max-width: 400px) {
+  .thought-card {
+    min-width: 250px;
+  }
+}
+
+@media (max-width: 495px) {
+  h2 {
+    font-size: 1.5em;
+  }
+
+  h5 {
+    font-size: 1.5em;
+  }
+
+  .hero-text {
+    top: 20%;
+  }
+
+  .ragna img {
+    left: -2em;
+  }
+
+  .circles-red {
+    flex-direction: column;
+    
+  }
+
+}
+
+
 @media (max-width: 390px) {
+  h2 {
+    font-size: 1.2em;
+  }
+
+  h5 {
+    font-size: 1em;
+  }
+
+  .hero-image {
+    height: 560px;
+  }
+
+  .hero-text {
+    top: 25%;
+  }
+
+  .ragna img {
+    top: 23em;
+    width: 150px;
+  }
+
   .card {
     min-width: 250px;
   }
 }
 
+/* .for-more-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 2em;
+}
+
+.circles-red {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 4em;
+} */
+
+/* .skills-section {
+  background-color: #f4f4f4;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 2em;
+}
+
+.column-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.column {
+  width: 150px;
+  flex-direction: row;
+  text-align: center;
+  padding: 0em 2em 2em 2em;
+}
+
+.column p {
+  font-size: .8em;
+} */
