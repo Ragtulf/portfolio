@@ -503,6 +503,7 @@ header {
   margin: 0;
 }
 
+/* MEDIA QUERIES */
 
 @media (max-width: 1386px) {
   .featured-wrapper {
