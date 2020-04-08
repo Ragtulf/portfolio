@@ -387,6 +387,7 @@ header {
   display: -ms-flexbox;
   display: flex;
   flex-direction: column;
+  height: 370px;
   width: 25%;
   text-align: start;
   min-width: 300px;
