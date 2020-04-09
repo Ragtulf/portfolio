@@ -102,6 +102,22 @@ header {
   right: 5%;
 }
 
+.hvr-grow {
+  /* display: inline-block; */
+  /* vertical-align: middle; */
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
 .circle {
   border: 2px solid #ffffff;
   border-radius: 50%;
@@ -148,32 +164,6 @@ header {
   font-size: 1em;
   line-height: 1.8em;
   position: relative;
-}
-
-.red-line {
-  height: 3px;
-  width: 50px;
-  background: #FA382F;
-  position: relative;
-  float:left;
-  top: 13px;
-  margin-right: 10px;  
-}
-
-.red-line::after {
-  content: '';
-  height: 10px;
-  width: 10px;
-  position: relative;
-  float: right;
-  top: -3px;
-  right: -1px;
-  border-radius: 50%;
-  background: #FA382F;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  -o-border-radius: 50%;
 }
 
 /*** TECH SECTION ***/
@@ -377,7 +367,6 @@ header {
   justify-content: center;
   flex-wrap: wrap;
   align-items: center;
-  /* max-width: 800px; */
 }
 
 .thought-card {
@@ -513,6 +502,11 @@ header {
   padding: 8px;
 }
 
+.hover-effect:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
 
 /*** CONTACT ***/
 
@@ -533,6 +527,8 @@ header {
   text-align: center;
   font-weight: 300;
   line-height: 2em;
+  display: flex;
+  flex-direction: column;
 }
 
 .contact {
@@ -541,6 +537,14 @@ header {
 
 .contact-text p {
   margin: 0;
+}
+
+a.contact-link {
+  color: #fff;
+}
+
+.contact-link a:visited {
+  color: #FDDFE7;
 }
 
 /* MEDIA QUERIES */
@@ -624,8 +628,12 @@ header {
     font-size: 1.5em;
   }
 
+  .circles {
+    top: 10%;
+  }
+
   .hero-text {
-    top: 20%;
+    top: 15%;
   }
 
   .ragna img {
@@ -649,15 +657,11 @@ header {
   }
 
   .hero-image {
-    height: 560px;
-  }
-
-  .hero-text {
-    top: 25%;
+    height: 400px;
   }
 
   .ragna img {
-    top: 23em;
+    top: 15em;
     width: 150px;
   }
 
@@ -666,50 +670,13 @@ header {
   }
 }
 
-/* .for-more-section {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  padding-top: 2em;
-}
-
-.circles-red {
+/* .circles {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   flex-wrap: wrap;
-  margin-bottom: 4em;
-} */
-
-/* .skills-section {
-  background-color: #f4f4f4;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  padding-top: 2em;
-}
-
-.column-wrapper {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
-}
-
-.column {
-  width: 150px;
-  flex-direction: row;
-  text-align: center;
-  padding: 0em 2em 2em 2em;
-}
-
-.column p {
-  font-size: .8em;
+  justify-content: flex-end;
+  position: relative;
+  top: 20%;
+  right: 5%;
 } */
