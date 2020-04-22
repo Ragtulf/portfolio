@@ -3,10 +3,10 @@
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 38.9 38.9" style="enable-background:new 0 0 38.9 38.9;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:#FF3333;}
+	.st0{fill:#FF3300;}
 </style>
 <g transform="translate(-10 -10)">
-	<path class="st0" d="M48.9,34.3v14.6H10V34.3h4.9V44H44v-9.7H48.9z M17.3,36.7h24.3v4.9H17.3L17.3,36.7z M17.9,31.5l1.1-4.7
-		L42.6,32l-1,4.7L17.9,31.5z M20.6,21.7l2.1-4.4l22,10.3L42.6,32L20.6,21.7z M47.7,23.7l-3,3.9L25.4,12.8l2.1-2.8h2.2L47.7,23.7z"/>
+	<path class="st0" d="M48.9,34.3v14.6H10V34.3h4.9V44H44v-9.7H48.9z M17.3,36.7h24.3v4.9H17.3V36.7z M17.9,31.5l1.1-4.7L42.6,32
+		l-1,4.7L17.9,31.5z M20.6,21.7l2.1-4.4l22,10.3L42.6,32L20.6,21.7z M47.7,23.7l-3,3.9L25.4,12.8l2.1-2.8h2.2L47.7,23.7z"/>
 </g>
 </svg>

@@ -16,7 +16,7 @@ h2 {
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
   color: #ffffff;
-  background-color: #FA382F;
+  background-color: #FF4300;
   padding: 4px;
   margin-bottom: 1.5em;
   letter-spacing: .1rem;
@@ -38,7 +38,7 @@ h4 {
 }
 
 h5 {
-  color: #FA382F;
+  color: #FF4300;
   text-align: center;
   font-size: 1.5em;
   margin: 3.5em 0 1em 0;
@@ -56,7 +56,7 @@ a {
 }
 
 header {
-  background: #080045;  
+  background: #CF8B00;  
 }
 
 /*** HEADER SECTION ***/
@@ -66,7 +66,7 @@ header {
 }
 
 .hero-image {
-  background-image: url(./assets/paint2.jpg);
+  background-image: url(./assets/Untitled_Artwork\ 1.png);
   height: 400px;
   background-attachment: fixed;
   background-size: cover;
@@ -103,8 +103,6 @@ header {
 }
 
 .hvr-grow {
-  /* display: inline-block; */
-  /* vertical-align: middle; */
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
   box-shadow: 0 0 1px rgba(0, 0, 0, 0);
@@ -150,7 +148,7 @@ header {
 
 .intro {
   border-top: 2px solid #ffffff;
-  background-color: #f4f4f4;
+  background-color: #ffedfa;
   width: 100%;
   padding: 3em 0;
 }
@@ -192,7 +190,7 @@ header {
 }
 
 .red {
-  color: #FA382F;
+  color: #FF4300;
 }
 
 /*** FEATURED PROJECTS SECTION ***/
@@ -202,7 +200,7 @@ header {
   display: flex;
   align-items: center;
   flex-direction: column;
-  background-color: #f4f4f4;
+  background-color: #ffedfa;
   width: 100%;
   
 }
@@ -250,7 +248,7 @@ header {
   top: 50%;
   left: 50%;
   text-align: center;
-  background: #FA382F;
+  /* background: #FA382F; */
 }
 
 .card:hover .over-image{
@@ -273,7 +271,7 @@ header {
   top: 50%;
   left: 50%;
   color: #ffffff;
-  background-color: #072BCE;
+  background-color: #5773FA;
   padding: 10px 20px;
 }
 
@@ -287,22 +285,22 @@ header {
 }
 
 .project-description:hover {
-  color: #FA382F;
+  color: #FF4300;
 }
 
 .red-bold {
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
-  color: #FA382F;
+  color: #FF4300;
 }
 
 .underlined {
   font-size: 1.1em;
-  text-decoration: underline solid #FA382F;
+  text-decoration: underline solid #FF4300;
 }
 
 .red-bold-underlined {
-  text-decoration: underline solid #FA382F;
+  text-decoration: underline solid #FF4300;
 }
 
 .tags {
@@ -315,7 +313,7 @@ header {
 }
 
 .tag {
-  background-color: #FDDFE7;
+  background-color: #ffe285;
   padding: 3px 10px 3px 10px;
   margin: 3px; 
 }
@@ -383,17 +381,17 @@ header {
 }
 
 .red-on-hover:hover {
-  color: #FA382F;
+  color: #FF4300;
 }
 
 .red-thin {
   font-weight: 200;
-  color: #FA382F;
+  color: #FF4300;
   margin: 1em 0 0 0;
 }
 
 .red-underline {
-  text-decoration: underline solid #FA382F;
+  text-decoration: underline solid #FF4300;
 }
 
 .articles-by-me {
@@ -479,7 +477,7 @@ header {
 }
 
 .circle-red {
-  border: 2.5px solid #FA382F;
+  border: 2.5px solid #FF4300;
   border-radius: 50%;
   width: 100px;
   height: 100px;
@@ -669,14 +667,3 @@ a.contact-link {
     min-width: 250px;
   }
 }
-
-/* .circles {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-end;
-  position: relative;
-  top: 20%;
-  right: 5%;
-} */
