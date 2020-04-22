@@ -546,6 +546,19 @@ a.contact-link {
 
 /* MEDIA QUERIES */
 
+@media (max-width: 2050px) {
+  .hero-image {
+    background-image: url(./assets/Untitled_Artwork\ 1-2050px.png);
+  }
+}
+
+@media (max-width: 1540px) {
+  .hero-image {
+    background-image: url(./assets/Untitled_Artwork\ 1-1540.png);
+  }
+}
+
+
 @media (max-width: 1386px) {
   .featured-wrapper {
     max-width: 80%;
@@ -553,6 +566,12 @@ a.contact-link {
 
   .card {
     max-width: 30%;
+  }
+}
+
+@media (max-width: 1080px) {
+  .hero-image {
+    background-image: url(./assets/Untitled_Artwork\ 1-1080.png);
   }
 }
 
@@ -594,6 +613,12 @@ a.contact-link {
   }
 }
 
+@media (max-width: 750px) {
+  .hero-image {
+    background-image: url(./assets/Untitled_Artwork\ 1-750.png);
+  }
+}
+
 @media (max-width: 730px) {
   .column-wrapper {
     flex-direction: column;
@@ -607,6 +632,12 @@ a.contact-link {
 
   .heading-short {
     display: none;
+  }
+}
+
+@media (max-width: 640px) {
+  .hero-image {
+    background-image: url(./assets/Untitled_Artwork\ 1-640.png);
   }
 }
 
@@ -664,5 +695,11 @@ a.contact-link {
 
   .card {
     min-width: 250px;
+  }
+}
+
+@media (max-width: 375px) {
+  .hero-image {
+    background-image: url(./assets/Untitled_Artwork\ 1-375.png);
   }
 }
