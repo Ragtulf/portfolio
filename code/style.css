@@ -549,6 +549,7 @@ a.contact-link {
 @media (max-width: 2050px) {
   .hero-image {
     background-image: url(./assets/Untitled_Artwork\ 1-2050px.png);
+    height: 400px;
   }
 }
 
@@ -593,9 +594,13 @@ a.contact-link {
     max-width: 200px;
   }
 
-  .hero-image {
+.hero-image {
     height: 500px;
   }
+
+  /* .hero-image {
+    height: 400px;
+  } */
 
   .ragna img {
     top: 17em;
@@ -604,13 +609,13 @@ a.contact-link {
 
 
 @media (max-width: 811px) {
-  .ragna img {
+  /* .ragna img {
     width: 180px;
-  }
+  } */
 
-  .hero-image {
+  /* .hero-image {
     height: 500px;
-  }
+  } */
 }
 
 @media (max-width: 750px) {
@@ -685,11 +690,11 @@ a.contact-link {
   }
 
   .hero-image {
-    height: 400px;
+    height: 420px;
   }
 
   .ragna img {
-    top: 15em;
+    /* top: 15em; */
     width: 150px;
   }
 
