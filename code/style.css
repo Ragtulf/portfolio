@@ -66,7 +66,9 @@ header {
 }
 
 .hero-image {
-  background-image: url(./assets/Untitled_Artwork\ 1.png);
+  background-image: url(./assets/Untitled_Artwork.jpg);
+  /* background-position: 50% -50%; */
+  width: 100vw;
   height: 400px;
   background-attachment: fixed;
   background-size: cover;
@@ -546,16 +548,15 @@ a.contact-link {
 
 /* MEDIA QUERIES */
 
-@media (max-width: 2050px) {
+@media (max-width: 1800px) {
   .hero-image {
-    background-image: url(./assets/Untitled_Artwork\ 1-2050px.png);
-    height: 400px;
+    background-image: url(./assets/Untitled_Artwork\ 1-1800px.jpg);
   }
 }
 
 @media (max-width: 1540px) {
   .hero-image {
-    background-image: url(./assets/Untitled_Artwork\ 1-1540.png);
+    background-image: url(./assets/Untitled_Artwork-1540.jpg);
   }
 }
 
@@ -572,7 +573,7 @@ a.contact-link {
 
 @media (max-width: 1080px) {
   .hero-image {
-    background-image: url(./assets/Untitled_Artwork\ 1-1080.png);
+    background-image: url(./assets/Untitled_Artwork-1080.jpg);
   }
 }
 
@@ -595,32 +596,28 @@ a.contact-link {
   }
 
 .hero-image {
-    height: 500px;
+    /* height: 500px; */
   }
 
   /* .hero-image {
     height: 400px;
   } */
 
-  .ragna img {
+  /* .ragna img {
     top: 17em;
-  }
+  } */
 }
 
 
 @media (max-width: 811px) {
-  /* .ragna img {
-    width: 180px;
-  } */
-
-  /* .hero-image {
+/* .hero-image {
     height: 500px;
   } */
 }
 
 @media (max-width: 750px) {
   .hero-image {
-    background-image: url(./assets/Untitled_Artwork\ 1-750.png);
+    background-image: url(./assets/Untitled_Artwork\ 1-750.jpg);
   }
 }
 
@@ -631,7 +628,16 @@ a.contact-link {
 }
 
 @media (max-width: 681px) {
+  .hero-image {
+    height: 350px;
+  }
+
+  .ragna img {
+    width: 180px;
+  }
+
   .hero-text {
+    top: 15%;
     left: 5%;
   }
 
@@ -642,7 +648,8 @@ a.contact-link {
 
 @media (max-width: 640px) {
   .hero-image {
-    background-image: url(./assets/Untitled_Artwork\ 1-640.png);
+    background-image: url(./assets/Untitled_Artwork\ 1-640.jpg);
+    height: 350px;
   }
 }
 
@@ -664,9 +671,13 @@ a.contact-link {
   .circles {
     top: 10%;
   }
+/* 
+  .hero-image {
+    height: 300px;
+  } */
 
   .hero-text {
-    top: 15%;
+    top: 10%;
   }
 
   .ragna img {
@@ -690,7 +701,7 @@ a.contact-link {
   }
 
   .hero-image {
-    height: 420px;
+    /* height: 420px; */
   }
 
   .ragna img {
@@ -703,8 +714,8 @@ a.contact-link {
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 370px) {
   .hero-image {
-    background-image: url(./assets/Untitled_Artwork\ 1-375.png);
+    background-image: url(./assets/Untitled_Artwork_375px.jpg);
   }
 }
