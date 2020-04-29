@@ -562,18 +562,15 @@ a.contact-link {
 
 
 @media (max-width: 1386px) {
+  .hero-image {
+    background-image: url(./assets/Hero_Mobile-Tablett.jpg);
+  }
   .featured-wrapper {
     max-width: 80%;
   }
 
   .card {
     max-width: 30%;
-  }
-}
-
-@media (max-width: 1080px) {
-  .hero-image {
-    background-image: url(./assets/Untitled_Artwork-1080.jpg);
   }
 }
 
@@ -594,32 +591,6 @@ a.contact-link {
   .card {
     max-width: 200px;
   }
-
-.hero-image {
-    /* height: 500px; */
-  }
-
-  /* .hero-image {
-    height: 400px;
-  } */
-
-  /* .ragna img {
-    top: 17em;
-  } */
-}
-
-
-@media (max-width: 811px) {
-/* .hero-image {
-    height: 500px;
-  } */
-}
-
-@media (max-width: 750px) {
-  .hero-image {
-    background-image: url(./assets/Untitled_Artwork\ 1-750.jpg);
-  }
-}
 
 @media (max-width: 730px) {
   .column-wrapper {
@@ -648,7 +619,6 @@ a.contact-link {
 
 @media (max-width: 640px) {
   .hero-image {
-    background-image: url(./assets/Untitled_Artwork\ 1-640.jpg);
     height: 350px;
   }
 }
@@ -657,6 +627,10 @@ a.contact-link {
   .thought-card {
     min-width: 250px;
   }
+
+  /* .hero-text {
+    top: 18%;
+  } */
 }
 
 @media (max-width: 495px) {
@@ -669,15 +643,11 @@ a.contact-link {
   }
 
   .circles {
-    top: 10%;
+    top: 5%;
   }
-/* 
-  .hero-image {
-    height: 300px;
-  } */
 
   .hero-text {
-    top: 10%;
+    top: 12%;
   }
 
   .ragna img {
@@ -687,21 +657,19 @@ a.contact-link {
   .circles-red {
     flex-direction: column;
   }
-
 }
 
-
 @media (max-width: 390px) {
+  .hero-image {
+    background-image: url(./assets/Hero_Mobile.jpg);
+  }
+
   h2 {
     font-size: 1.2em;
   }
 
   h5 {
     font-size: 1em;
-  }
-
-  .hero-image {
-    /* height: 420px; */
   }
 
   .ragna img {
@@ -711,11 +679,5 @@ a.contact-link {
 
   .card {
     min-width: 250px;
-  }
-}
-
-@media (max-width: 370px) {
-  .hero-image {
-    background-image: url(./assets/Untitled_Artwork_375px.jpg);
   }
 }
