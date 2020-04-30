@@ -627,10 +627,6 @@ a.contact-link {
   .thought-card {
     min-width: 250px;
   }
-
-  /* .hero-text {
-    top: 18%;
-  } */
 }
 
 @media (max-width: 495px) {
